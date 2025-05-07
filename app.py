@@ -483,5 +483,5 @@ def run_backtest(n_clicks, symbol, interval, stop_loss, initial_balance):
     return fig, result_text
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=8080, debug=True)  # Publikus elérés engedélyezése
 
