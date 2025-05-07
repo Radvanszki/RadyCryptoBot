@@ -1,0 +1,16 @@
+# Ne töltsd fel az érzékeny környezeti változókat
+.env
+
+# Python cache fájlok és mappák
+__pycache__/
+*.py[cod]
+
+# Log fájlok
+*.log
+
+# Jupyter notebook checkpointok (ha használnál ilyet)
+.ipynb_checkpoints/
+
+# Virtuális környezet mappák (ha valaki mégis lokálisan futtatná)
+venv/
+env/
