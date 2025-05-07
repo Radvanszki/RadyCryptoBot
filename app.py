@@ -483,4 +483,5 @@ def run_backtest(n_clicks, symbol, interval, stop_loss, initial_balance):
     return fig, result_text
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run(debug=True)
+
