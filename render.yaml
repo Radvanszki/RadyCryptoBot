@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: crypto-dashbot
-    env: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
-    autoDeploy: true
-    branch: main
