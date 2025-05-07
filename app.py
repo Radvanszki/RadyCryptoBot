@@ -30,7 +30,7 @@ TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 global_lock = threading.Lock()
 
 # Dash app létrehozása
-app = dash.Dash(__name__)
+app = dash.Dash(__name__, suppress_callback_exceptions=True)
 app.title = "RadyBot Dashboard"
 
 # Globális változók
