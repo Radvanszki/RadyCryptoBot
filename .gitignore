@@ -1,0 +1,23 @@
+# Python build és cache fájlok
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Virtuális környezet és csomagkezelők
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE és editor-specifikus fájlok
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specifikus fájlok
+.DS_Store
+Thumbs.db
+
+# Logok és temp fájlok
+logs/
+*.log
